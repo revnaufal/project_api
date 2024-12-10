@@ -31,7 +31,7 @@ def getData(kunci: str = Header(None)): #tambahan proteksi API KEY
 
     # return hasil process (berupa dict/json)
     return {
-        "message": "selamat datang!"
+        "message": "selamat datang di vercel!"
     }
 
 @app.get("/data")
@@ -96,3 +96,5 @@ def getFilterData():
 #   - requirements.txt
 #   - vercel.json
 #   - package.json
+# 3. set up akun vercel -> integrasi dengan github
+# 4. import repository github -> deploy
