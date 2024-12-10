@@ -1,0 +1,17 @@
+// ketika data singular (1 data)
+{
+    "name": "john",
+    "age": 30
+}
+
+// ketika datanya multiple (> 1 data)
+[
+    {
+        "name": "john",
+        "age": 30
+    }
+    {
+        "name": "jane",
+        "age": 30
+    }
+]
