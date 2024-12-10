@@ -89,3 +89,10 @@ def getFilterData():
 
 # url ->
 # ada dynamic parameter/url parameter
+
+# step sebelum deployment / preparation
+# 1. setup repo github
+# 2. memenuhi beberapa requierments
+#   - requirements.txt
+#   - vercel.json
+#   - package.json
